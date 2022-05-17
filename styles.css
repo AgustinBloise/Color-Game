@@ -1,0 +1,93 @@
+#message{
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  font-family: 'Cinzel Decorative', cursive;
+  vertical-align: auto;
+  font-size: 120%;
+  border: none;
+  padding: 3px 20px;
+  text-align: center;
+  font-weight: 700;
+  }
+
+.square{
+
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: gray;
+  margin: 1.5%;
+  border-radius: 10px;
+  }
+
+.container{
+
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+body{
+  background-color: #3a3a3a
+  } 
+
+h1{
+  background-color: rgb(205, 22, 22);
+  color: white;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  margin: 1.5% 10% 0.3%;
+  border-color: rgb(205, 22, 22);
+  padding: 0.5%;
+  border-radius: 10px;
+  }
+
+#stripe{
+  background-color: rgb(22, 22, 22);
+  height: 30px;
+  text-align: center;
+  margin: 0% 10% 1%;
+  border-radius: 10px;
+}
+
+#colorDisplay{
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.2s, opacity 0.2s linear;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 100
+}
+
+.esconder{
+  visibility: hidden;
+}
+
+.bot{
+border: none;
+padding: 2px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background-color: rgb(22, 22, 22);
+color: white;
+font-family: 'Cinzel Decorative', cursive;
+font-size: 105%;
+}
+
+
+.selected{
+  background-color: white;
+  color: rgb(22, 22, 22);
+  font-weight: 700;
+}
