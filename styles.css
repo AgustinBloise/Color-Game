@@ -23,11 +23,12 @@
   border-radius: 10px;
   }
 
-.container{
-
-  max-width: 800px;
+.container-fluid{
+  max-width: 850px;
+  height: fit-content;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 420px;
+  padding: 0 50px;
   }
 
 body{
@@ -39,7 +40,7 @@ h1{
   color: white;
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
-  margin: 1.5% 10% 0.3%;
+  margin: 0.5% 10% 0.3%;
   border-color: rgb(205, 22, 22);
   padding: 0.5%;
   border-radius: 10px;
@@ -49,7 +50,7 @@ h1{
   background-color: rgb(22, 22, 22);
   height: 30px;
   text-align: center;
-  margin: 0% 10% 1%;
+  margin: 0% 10% 0%;
   border-radius: 10px;
 }
 
@@ -83,6 +84,7 @@ background-color: rgb(22, 22, 22);
 color: white;
 font-family: 'Cinzel Decorative', cursive;
 font-size: 105%;
+height: 30px;
 }
 
 
@@ -90,4 +92,188 @@ font-size: 105%;
   background-color: white;
   color: rgb(22, 22, 22);
   font-weight: 700;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 955px){
+
+  .bot{
+    padding: 2px 10px;
+    font-size: 90%;
+    }
+
+  #message{
+    font-size: 100%;
+    padding: 3px 10px;
+    }
+    
+  #stripe{
+    margin: 0% 5% 0%;
+  }
+
+  h1{
+    margin: 1% 5% 0.5%;
+    }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 675px){
+
+  .bot{
+    font-size: 75%;
+    height: 25px;
+    padding: 0px 10px;
+    }
+
+  #message{
+    font-size: 80%;
+    }
+
+  #stripe{
+    height: 25px;
+    padding: 0px 10px;
+    }
+
+  .navi{
+    height: 25px;
+    line-height: 19px;
+  }
+
+  .square{
+    font-size: 350%;
+  }
+
+  .container-fluid{
+    margin-bottom: 350px;
+  }
+
+  h1{
+    margin: 2% 5% 1%;
+    }
+ 
+}
+
+@media only screen and (min-width: 100px) and (max-width: 576px){
+
+  .bot{
+    font-size: 60%;
+    height: 20px;
+    padding: 2px 5px;
+    }
+  
+  #message{
+    font-size: 65%;
+    padding: 3px 2px;
+    }
+
+  .navi{
+    height: 20px;
+    line-height: 14px;
+    }
+    
+  #stripe{
+    height: 20px;
+    line-height: 20px;
+    }
+
+  .square{
+    font-size: 300%;
+    width: 47%;
+    padding-bottom: 47%;
+    }
+
+  .container-fluid{
+     margin-bottom: 420px;
+    }
+
+  h1{
+    font-size: 180%;
+    }
+
+  #colorDisplay{
+    font-size: 130%;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 446px){
+
+  .bot{
+    font-size: 45%;
+    height: 15px;
+    padding: 0px 2px;
+    }
+  
+  #message{
+    font-size: 50%;
+    padding: 0px;
+    }
+
+  .navi{
+    height: 15px;
+    line-height: 6px;
+    }
+    
+  #stripe{
+    height: 15px;
+    line-height: 6px;
+    }
+
+  .square{
+    font-size: 250%;
+    }
+
+  .container-fluid{
+    padding: 0 20px;
+    margin-bottom: 350px;
+  }
+
+  h1{
+    font-size: 150%;
+    }
+
+  #colorDisplay{
+    font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 350px){
+
+  .bot{
+    font-size: 35%;
+    height: 15px;
+    padding: 0px;
+    }
+  
+  #message{
+    font-size: 40%;
+    padding: 0px;
+    }
+
+  .navi{
+    height: 15px;
+    line-height: 6px;
+    }
+    
+  #stripe{
+    height: 15px;
+    line-height: 6px;
+    }
+
+  .square{
+    font-size: 200%;
+    }
+
+  .container-fluid{
+    margin-bottom: 275px;
+    }
+
+  h1{
+    font-size: 130%;
+  }
+
+  #colorDisplay{
+    font-size: 110%;
+    }
 }
